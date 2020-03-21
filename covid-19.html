@@ -77,7 +77,15 @@
 
             <div class="row">
                 <div class="col-sm-4">
-                    <img src="cov1.jpg" id="newcov" /> </div>
+                    <img src="cov1.jpg" id="newcov" /> 
+                 <br>
+    <br>
+    <div class="circle">
+        <div class="f" id="f" onclick="f()"></div>
+        <div class="sec" id="sec" onclick="sec()"></div>
+        <div class="thir" id="thir" onclick="thir()"></div>
+    </div>
+                </div>
 
                 <div class="col-sm-4">
                     <img src="cov2.jpg" /> </div>
@@ -89,13 +97,7 @@
         </div>
 
     </section>
-    <br>
-    <br>
-    <div class="circle">
-        <div class="f" id="f" onclick="f()"></div>
-        <div class="sec" id="sec" onclick="sec()"></div>
-        <div class="thir" id="thir" onclick="thir()"></div>
-    </div>
+   
     <!-- section-parts -->
     <section id="parts">
         <div class="container">
@@ -150,9 +152,7 @@
                 x = 0;
             }
             newcov.src = images[x];
-            if (newcov.src == images1) {
-                document.getElementById("sec").style.backgroundColor = "grey";
-            }
+           
         }
 
         function f() {
